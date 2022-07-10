@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.mysnippet.Demo01_Splash.MainDemo01;
+import com.example.mysnippet.Demo02_Battery_Capacity.MainDemo02;
 import com.example.mysnippet.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_01: startActivity(new Intent(MainActivity.this, MainDemo01.class)); break;
-//            case R.id.btn_02: startActivity(new Intent(MainActivity.this, MainDemo02.class)); break;
+            case R.id.btn_02: startActivity(new Intent(MainActivity.this, MainDemo02.class)); break;
 
         }
     }
