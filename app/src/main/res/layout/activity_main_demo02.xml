@@ -16,8 +16,11 @@
         android:textSize="18sp"
         />
     <TextView
+        android:id="@+id/demo02_tv_capacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
 
 
 </LinearLayout>
